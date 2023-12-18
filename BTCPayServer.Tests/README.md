@@ -112,3 +112,15 @@ This happen when we update the selenium packages on BTCPay Server while you did 
 If you want to use a older chrome driver on [this page](https://chromedriver.chromium.org/downloads) then point to it with
 
 `dotnet user-secrets set ChromeDriverDirectory "path/to/the/driver/directory"`
+
+
+### Development for Monero
+
+Open project in Visual Studio
+Start the environment with `docker-compose -f docker-compose.altcoins.yml up dev`
+Select BTCPayServer - Altcoins-HTTPS
+Select Altcoins-Debug
+
+Notes:
+
+Configuration file is stored at $ROOT/.btcpayserver/RegTest/settings.config
