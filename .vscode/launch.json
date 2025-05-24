@@ -13,14 +13,12 @@
             "program": "${workspaceFolder}/BTCPayServer/bin/Debug/net8.0/BTCPayServer.dll",
             "args": [],
             "cwd": "${workspaceFolder}/BTCPayServer",
+            "launchSettingsProfile": "Altcoins-HTTPS",
             "stopAtEntry": false,
             // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
             "serverReadyAction": {
                 "action": "openExternally",
                 "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
-            },
-            "env": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
